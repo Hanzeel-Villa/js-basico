@@ -1,3 +1,5 @@
+alert("SE NECESITA DESCOMENTAR LA SECCION DE CODIGO QUE SE DESEA USAR");
+
 /* ------------------- DECLARACION DE VARIABLES LET Y VAR ------------------- */
 let saludo = "Hola mundo"; //local
 var numero = 5; //global
@@ -118,7 +120,7 @@ for (let i = 0; i < 10; i++) {
 
 /* ---------------------------------- WHILE --------------------------------- */
 
-
+/*
 opcion = true;
 while (opcion) {
     respuesta = parseInt(prompt('Quieres salir del ciclo? "1" para si "2" para no'))
@@ -134,3 +136,4 @@ while (opcion) {
         console.log("Número fuera de rango")
     }
 }
+*/
