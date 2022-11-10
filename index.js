@@ -10,28 +10,36 @@ var numero = 5; //global
 
 
 /* ------------------------ FUNCIONES SIN PARAMETROS ------------------------ */
+buenosDias();
+
 function buenosDias(){
-    alert("Buenos días");
+    //alert("Buenos días");
 }
-//buenosDias();
 
 /* ------------------------ FUNCIONES CON PARAMETROS ------------------------ */
+saludar("hanzeel");
+
 function saludar(nombre){
-    alert(`Hola ${nombre}`);
+    //alert(`Hola ${nombre}`);
 }
-//saludar("hanzeel");
 
 /* --------------------------------- PROMPT --------------------------------- */
-//edad = prompt("cuál es tu edad?")
+
+/*
+edad = prompt("cuál es tu edad?")
+console.log(edad)
+*/
 
 /* ----------------------------- STRING A NUMERO ---------------------------- */
+
 /*
 console.log(typeof(edad));
-//edad = parseInt(edad);
+edad = parseInt(edad);
 console.log(typeof(edad));
 */
 
 /* --------------------------------- ARRAYS --------------------------------- */
+
 /*
 numeros = [10, "Hanzeel", 3.14, 50, 60];
 console.log(numeros); //Arreglo
@@ -48,16 +56,19 @@ console.log(numeros);
 /* -------------------------- USO DE CONDICIONALES -------------------------- */
 
 /* -------------------------------- IF NORMAL ------------------------------- */
+/*
 let edad_hanzeel = 18;
 if (edad_hanzeel => 18){
-    //console.log("Hanzeel es mayor de edad");
+    console.log("Hanzeel es mayor de edad");
 }
 else{
-    //console.log("Hanzeel es menor de edad")
+    console.log("Hanzeel es menor de edad")
 }
+*/
 
 /* --------------------------------- IF ELSE -------------------------------- */
 
+/*
 num1 = 0
 num2 = 1
 num3 = 2
@@ -65,20 +76,22 @@ num3 = 2
 console.log(`Números: ${num1}, ${num2}, ${num3}`)
 
 if(num1 > num2 && num1 > num3){
-    //console.log(`número: ${num1} es el mayor`);
+    console.log(`número: ${num1} es el mayor`);
 }
 else if(num2 > num1 && num2 > num3){
-    //console.log(`número: ${num2} es el mayor`);
+    console.log(`número: ${num2} es el mayor`);
 }
 else{
-    //console.log(`número: ${num3} es el mayor`); 
+    console.log(`número: ${num3} es el mayor`); 
 }
+*/
 
 /* --------------------------------- SWTICH --------------------------------- */
 
-//valor = parseInt(prompt("Dame un número del 1 al 3: "));
-
 /*
+valor = parseInt(prompt("Dame un número del 1 al 3: "));
+
+
 switch (valor){
     case 1:
         console.log("Número 1");
@@ -92,17 +105,20 @@ switch (valor){
     default: 
         console.log("Número fuera de rango");
 }
+
 */
 
 /* ----------------------------------- FOR ---------------------------------- */
 
+/*
 for (let i = 0; i < 10; i++) {
     console.log(`Posición de i = ${i}`);
 }
+*/
 
 /* ---------------------------------- WHILE --------------------------------- */
 
-/*
+
 opcion = true;
 while (opcion) {
     respuesta = parseInt(prompt('Quieres salir del ciclo? "1" para si "2" para no'))
@@ -118,4 +134,3 @@ while (opcion) {
         console.log("Número fuera de rango")
     }
 }
-*/
